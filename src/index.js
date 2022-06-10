@@ -3,11 +3,6 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-// import {library} from 'react-icons-kit'
-// import {Icon} from 'react-icons-kit'
-// import {eyeOff} from 'react-icons-kit/feather/eyeOff'
-// import {eye} from 'react-icons-kit/feather/eye'
-// library.add( eye,eyeOff);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

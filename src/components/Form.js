@@ -18,14 +18,18 @@ const Form = () => {
       <div className='form-container'>
 
 
-        <div className='container1'>
-          {/*             
-              <img src = 'image/home.png' alt='spaceship' className='form-img'></img> */}
+        <div className='form-content-left'>
+
+          <img src='image/home.png' alt='spaceship' className='form-img'></img>
+
+
+
         </div>
-        <div className='container2'>
-          {!isSubmitting ? <FromSiginUp submitForm={submitForm} /> : <FromSuccesss />}
+        <div className='form-content-right'>
+          {/* {!isSubmitting ? <FromSiginUp submitForm={submitForm} /> : <FromSuccesss />} */}
+          <FromSiginUp />
+
         </div>
-     
 
 
       </div>
